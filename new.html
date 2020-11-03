@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Poll</title>
+    <link rel="stylesheet" href="css/style.css" />
+	<script src= " https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+    
+    <div class="header">
+		
+      <h1><center> WELCOME TO THE ELECTIONS . </center><h1>
+    </div>
+
+    
+ <div class="main">
+<div class="ig">
+	
+<img src="https://www.almanac.com/sites/default/files/image_nodes/vote.jpg" height ="200" width ="200"/>
+
+</div>
+<div class="ig">
+	
+<img src="https://miro.medium.com/max/644/1*gYDq_GRZXYE3YulX1XrfFw.jpeg" height ="200" width ="200"/>
+
+</div>
+<div class="ig">
+	
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVDWTvu-y7Npc_dg9w00v8DBo6U4yBtA_sKA&usqp=CAU" height ="200"width ="200"/>
+
+</div>
+
+
+    <div class="main1">
+		
+        
+        <h1><center>ELECTION DAY  .</center></h1>
+	
+        <h2>You can either cast your vote on a ongoing election or host a election </h2>
+     </div>
+     <div class="contents">
+        		<h3>Click here if you want to vote</h3>
+        		<button class="b1"> Voter </button>
+	            <div class="v">
+          		<h3> Do you want to vote for the candidate </h3>
+          		<button class="a1"> YES </button><br>
+			<button class="a1"> NO </button><br>
+                    </div>
+     </div>
+     <div class="contents">
+        
+        		<h3>Click here if you are a admin</h3>
+        		<button class="b2"> Admin </button>
+	            <div class="a">
+
+          		<button class="a1"> No of Votes </button><br>
+			<button class="a1"> Voter Status </button><br>
+			<button class="a1"> Results </button><br>
+          		
+                    </div>
+     </div>
+	
+      
+
+
+    </div>
+<div class="footer">
+
+</div>
+
+    
+    
+<script>
+$('.v').hide();
+$('.a').hide();
+$('.b1').on('click', function(){
+$('.v').toggle();
+});
+
+$('.b2').on('click', function(){
+$('.a').toggle();
+});
+</script>
+  </body>
+</html>
